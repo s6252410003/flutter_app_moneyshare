@@ -7,7 +7,9 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MoneyshareUI(), // เรียกหน้าจอแรก
-      theme: ThemeData(fontFamily: 'Kanit'),
+      theme: ThemeData(
+        fontFamily: 'Kanit',
+        ),
     ),
   );
 }
